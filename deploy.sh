@@ -1,3 +1,6 @@
+git config --global user.email "${GIT_EMAIL}"
+git config --global user.name "${GIT_NAME}"
+
 rm -rf build
 git clone git@github.com:kongeor/kongeor.github.io.git build
 cp -rf resources/public/* build
