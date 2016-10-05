@@ -1,12 +1,12 @@
-{:site-title         "My Awesome Blog"
- :author             "Bob Bobbert"
- :description        "This blog is awesome"
- :site-url           "http://blogawesome.com/"
+{:site-title         "Blogen"
+ :author             "Kostas Georgiadis"
+ :description        "This is awesome"
+ :site-url           "http://kongeor.github.io/"
  :post-root          "posts"
  :page-root          "pages"
- :post-root-uri      "posts-output"
+ :post-root-uri      "posts"
  :page-root-uri      "pages-output"
- :tag-root-uri       "tags-output"
+ :tag-root-uri       "tags"
  :author-root-uri    "authors-output"
  :rss-name           "feed.xml"
  :rss-filters        ["cryogen"]
@@ -14,11 +14,11 @@
  :post-date-format   "yyyy-MM-dd"
  :sass-src           nil
  :sass-dest          nil
- :theme              "blue"
+ :theme              "blogen"
  :resources          ["img"]
  :keep-files         [".git"]
- :disqus?            false
- :disqus-shortname   ""
+ :disqus?            true
+ :disqus-shortname   "blogen-1"
  :ignored-files      [#"\.#.*" #".*\.swp$"]
  :posts-per-page     5
  :blocks-per-preview 2

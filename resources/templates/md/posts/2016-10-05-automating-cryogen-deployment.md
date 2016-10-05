@@ -1,6 +1,5 @@
 {:title "Automating Cryogen deployment to github"
  :layout :post
- :draft? true
  :tags  ["automation" "cryogen"]}
 
 I like static site generators, `clojure` and [github pages][ghpages] and for those
@@ -77,9 +76,9 @@ You need to go once again to project settings in [dashboard][cidash],
 find the `SSH Permissions` settings
 and add you private `SSH` key there. Check [this][cikeys] guide.
 
-## Test it!
+### Test it!
 
-You should be good to test this setup. Create a [post], commit and push. [Circleci][circleci]
+You should be good to test this setup. Create a post, commit and push. [Circleci][circleci]
 should fire up the build and when ready it should push the compiled blog to "production".
 
 
