@@ -4,4 +4,4 @@
 
 My [blog]
 
-[blog]: http://kongeor.github.io]
+[blog]: http://kongeor.github.io/
