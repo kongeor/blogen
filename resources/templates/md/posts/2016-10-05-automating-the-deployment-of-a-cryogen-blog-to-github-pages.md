@@ -1,4 +1,4 @@
-{:title "Automating Cryogen deployment to github"
+{:title "Automating the deployment of a cryogen blog to github pages"
  :layout :post
  :tags  ["automation" "cryogen"]}
 
