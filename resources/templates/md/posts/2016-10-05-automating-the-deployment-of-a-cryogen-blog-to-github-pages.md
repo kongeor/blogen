@@ -67,18 +67,18 @@ repo.
 ### Setup SSH keys
 
 You need to generate an [ssh key][genkeys]. Most probably you already have one, but I
-don't think that it's a good idea to use that one, because you will need to add you private
-key to [circleci].
+don't think that it's a good idea to use that one, because you will need to add your private
+key to [circleci][circleci].
 
 Go to project settings under your `foo.github.io` repo and add your public key.
 
 You need to go once again to project settings in [dashboard][cidash], 
 find the `SSH Permissions` settings
-and add you private `SSH` key there. Check [this][cikeys] guide.
+and add your private `SSH` key there. You can find more information [here][cikeys].
 
 ### Test it!
 
-You should be good to test this setup. Create a post, commit and push. [Circleci][circleci]
+You should be good to test this setup. Create a post, commit and push. Boom! [Circleci][circleci]
 should fire up the build and when ready it should push the compiled blog to "production".
 
 

@@ -19,6 +19,7 @@ body {
 }
 
 .navbar {
+    min-height: 70px;
     border-radius: 0;
     box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.3);
 }
@@ -28,9 +29,25 @@ body {
     border: none;
 }
 
+.navbar-toggle {
+    margin-top: 18px;
+}
+
+.navbar-brand {
+    display: inline-block;
+    float: none;
+}
+
 .navbar-default .navbar-brand {
     color: #fff;
     font-family: 'Alegreya';
+    padding: 25px 5px 25px 15px;
+}
+
+.navbar-default .fa-child {
+    font-size: 35px;
+    display: inline-block;
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -127,15 +144,12 @@ pre, code, .hljs {
 }
 
 @media (min-width: 768px) {
-    .navbar {
-        min-height: 70px;
-    }
     .navbar-nav>li>a {
         padding: 30px 20px;
     }
     .navbar-default .navbar-brand {
         font-size: 36px;
-        padding: 25px 15px;
+        padding: 25px 5px 25px 15px;
     }
     #content{
         margin-top: 30px;
