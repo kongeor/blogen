@@ -157,7 +157,7 @@ the `(range 10)` wrapped as follows:
 
 If you hit `ctrl-shift-j` you will see the form being unwrapped.
 
-Check [this SO post][lt-cheat-sheet-so] if you want to configure more `paredit` commands.
+Check [this SO post][ltcheatsheetso] if you want to configure more `paredit` commands.
 
 ### Where to go from here
 
@@ -181,7 +181,7 @@ Have fun!
 [openjdk]: http://openjdk.java.net/
 [leiningen]: http://leiningen.org/
 [lighttable]: http://lighttable.com/
-[lt-cheat-sheet-so]: http://stackoverflow.com/questions/22168195/i-cant-find-a-light-table-cheat-sheet
+[ltcheatsheetso]: http://stackoverflow.com/questions/22168195/i-cant-find-a-light-table-cheat-sheet
 [firacode]: https://github.com/tonsky/FiraCode
 [firatable]: https://github.com/tonsky/FiraCode/wiki/LightTable-instructions
 
