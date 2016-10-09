@@ -185,9 +185,9 @@ Have fun!
 [firacode]: https://github.com/tonsky/FiraCode
 [firatable]: https://github.com/tonsky/FiraCode/wiki/LightTable-instructions
 
-[braveclojure]: https://foo.example.com
-[cljkoans]: saja
-[4clojure]:  asdf
+[braveclojure]: http://www.braveclojure.com/clojure-for-the-brave-and-true/
+[cljkoans]: http://clojurekoans.com/
+[4clojure]: https://www.4clojure.com/
 [codewars]: https://www.codewars.com/
 [exercism]: http://exercism.io/
 [reference]: http://clojure.org/reference/documentation
